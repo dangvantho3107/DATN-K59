@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <title>Kết quả</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <meta name="author" content="">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <link rel="stylesheet" href="../static/style.css">
+    </head>
+<html>
+<body>
+   <header>
+      <!-- header inner -->
+      <div class="header">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                  <div class="full">
+                     <div class="center-desk">
+                        <div class="logo">
+                           <a href="#"><img src="../static/images/logo.png" alt="#" /></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+<div id="" class="hosting">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h1>KẾT QUẢ KIỂM TRA</h1>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="web_hosting">
+					  {% if prediction == 1%}
+					  <p style="color:red;">THƯ RÁC - SPAM EMAIL</p>
+					  {% elif prediction == 0%}
+					  <p style="color:green;">KHÔNG PHẢI THƯ RÁC - HAM EMAIL</p>
+					  {% endif %}
+                     <a href="test.html">LỌC THƯ KHÁC </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+           <!-- FOOTER -->
+           <footer id="contact" style="border-top:10px solid rgba(255, 254, 254, 0.2); background: rgb(230, 247, 246); clear: both; position: relative; height: 75px; margin-top: 50px; " >
+            <h5 class="m-0 text-dark text-center ">Demo website ứng dụng học máy vào phân loại thư rác</h5>
+            <p class="m-0 text-dark text-center ">&copy; Đồ án tốt nghiệp sinh viên Đặng Văn Thọ - Giáo viên hướng dẫn: Ths. Phạm Thị Miên  - Trường Đại học Giao Thông Vận Tải Phân hiệu Thành Phố Hồ Chí Minh
+        </footer>
+</html>
